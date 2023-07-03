@@ -1,0 +1,64 @@
+
+#range{
+    width: 200px;
+}
+#textInput{
+    margin-left: 180px;
+}
+.inp{
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    border-bottom: 6px solid  rgb(255, 115, 0);
+}
+button{
+    border: none;
+    background-color: rgba(0,0,0,0);
+    width: 200px;
+    padding: 2px;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+button:hover{
+    border-bottom: 4px solid  rgb(255, 115, 0);
+}
+label,span{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+
+}
+ul{
+    width: 150px;
+}
+body {
+  background-color:lightsteelblue;
+}
+ul{
+    font-family: "Chivo Mono",monospace;
+    
+    display: flex ;
+    gap: 72px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 115, 0);
+    padding: 5px;
+    transition: 0.5s ease;
+}
+ul:hover li a {
+color: #ffffff;
+}
+ul:hover li a:not(:hover) {
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+    filter: blur(1px);
+}

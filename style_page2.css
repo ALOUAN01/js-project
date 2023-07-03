@@ -1,0 +1,87 @@
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    align-items:center;
+    
+} 
+
+#btn1{
+    background-color:rgba(255, 51, 0, 0.87);
+    color: black;
+    font-weight: bold;
+    border: solid 2px rgba(255, 51, 0, 0.87);
+    border-radius: 10px;
+    height: 40px;
+
+}
+#btn1:hover{
+background-color: rgb(250, 245, 245);
+}
+#btn2{
+    margin-left: 45%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(255, 51, 0, 0.87);
+    background-color: rgba(255, 51, 0, 0.87);
+    color: whitesmoke;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+   
+}
+#btn2:hover{
+    background-color: rgb(250, 245, 245);
+    color: black;
+    }
+    
+
+#text{
+    margin-left: 15%;
+    font-size: larger;
+}
+legend{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+ul{
+    font-family: "Chivo Mono",monospace;
+        display: flex ;
+    gap: 72px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(255, 115, 0);
+    padding: 5px;
+    transition: 0.5s ease;
+}
+ul:hover li a {
+color: #ffffff;
+}
+ul:hover li a:not(:hover) {
+    color: rgb(255, 255, 255);
+    opacity: 0.2;
+    filter: blur(1px);
+}
+
+

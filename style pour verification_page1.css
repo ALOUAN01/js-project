@@ -1,0 +1,59 @@
+.form-field {
+    margin-bottom: 5px;
+
+}
+
+.form-field label {
+    display: block;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.form-field input {
+    border: solid 2px #f0f0f0;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+}
+
+.form-field input:focus {
+    outline: none;
+}
+.form-field.error input {
+    border-color: red;
+}
+.form-field.error label{
+    color:red;
+}
+.form-field.success input {
+    border-color: green;
+}
+.form-field.success label {
+    color: green;
+}
+
+
+.form-field small {
+    color: rebeccapurple;
+}
+
+
+
+#SignUp{
+    margin-top: 10px;
+    width: 450px;
+}
+label{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+img{
+border-radius: 20px; 
+width: 600px;
+height: 700px;
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
